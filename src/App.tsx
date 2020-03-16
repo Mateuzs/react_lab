@@ -1,30 +1,27 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import { Header, Footer, Main } from "./components";
+import { Header, Footer, Main, DragContainer } from "./components";
 
 import "./App.scss";
 
 const App = () => {
   return (
     <div className="App">
-      <Header title={"HEADER"}></Header>
-      <Main title={"MAIN"}></Main>
-      <Footer title="FOOTER"></Footer>
+      <Header title={"HEADER"} />
+      <Router>
+        <Switch>
+          <Route path="/drag">
+            <DragContainer />
+          </Route>
+          <Route path="/">
+            <Main title={"MAIN"} />
+          </Route>
+        </Switch>
+      </Router>
+      <Footer title="FOOTER" />
     </div>
   );
 };
 
 export default App;
-
-// <img src={logo} className="App-logo" alt="logo" />
-// <p>
-//   Edit <code>src/App.tsx</code> and save to reload.
-// </p>
-// <a
-//   className="App-link"
-//   href="https://reactjs.org"
-//   target="_blank"
-//   rel="noopener noreferrer"
-// >
-//   Learn React
-// </a>
