@@ -1,25 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import { Header, Footer, Main, DragContainer } from "./components";
+import { Header, Footer, Home, DragContainer } from "./components";
 
 import "./App.scss";
 
 const App = () => {
   return (
     <div className="App">
-      <Header title={"HEADER"} />
       <Router>
+        <Header title={"HEADER"} />
         <Switch>
           <Route path="/drag">
             <DragContainer />
           </Route>
           <Route path="/">
-            <Main title={"MAIN"} />
+            <Home title={"HOME"} />
           </Route>
         </Switch>
+        <Footer title="FOOTER" />
       </Router>
-      <Footer title="FOOTER" />
     </div>
   );
 };

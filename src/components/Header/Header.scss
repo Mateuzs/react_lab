@@ -1,5 +1,6 @@
 header {
-  display: block;
+  display: flex;
+  justify-content: flex-start;
   color: white;
   background: gray;
   text-transform: uppercase;
@@ -11,4 +12,8 @@ header {
   &:hover {
     box-shadow: 0 0 2rem gray;
   }
+}
+
+.menu__wrapper {
+  display: flex;
 }

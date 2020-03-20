@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 
 import "./Footer.scss";
 
@@ -6,7 +6,7 @@ interface FooterProps {
   title: string;
 }
 
-const Footer: React.FunctionComponent<FooterProps> = ({ title }) => (
+const Footer: FunctionComponent<FooterProps> = ({ title }) => (
   <footer>{title}</footer>
 );
 

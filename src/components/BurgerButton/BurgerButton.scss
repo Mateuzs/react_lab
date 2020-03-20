@@ -1,0 +1,29 @@
+.burger-button {
+  color: white;
+  left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1rem;
+  height: 2rem;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  border-color: transparent;
+  z-index: 10;
+  &:focus {
+    outline: none;
+  }
+}
+
+.burger-button__bar {
+  width: 2rem;
+  height: 0.25rem;
+  background: #ffffff;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+  will-change: transform, opacity, rotate;
+}
