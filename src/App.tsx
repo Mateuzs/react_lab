@@ -18,7 +18,11 @@ const App = () => {
             <Home title={"HOME"} />
           </Route>
         </Switch>
-        <Footer title="FOOTER" />
+        <Footer
+          title={`Proudly Crafted By Mateusz, version ${
+            require("../package.json").version
+          }`}
+        />
       </Router>
     </div>
   );

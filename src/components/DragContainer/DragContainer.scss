@@ -3,41 +3,38 @@
   flex-basis: 0;
   display: flex;
   color: white;
-  background: #444555;
+  background: #6b6e70;
   width: 100%;
   justify-content: center;
   text-align: center;
   position: relative;
   z-index: 0;
-  &:hover {
-    box-shadow: 0 0 2rem gray;
-  }
 }
 
-.drag-component__turquoise {
+.drag-component__blue {
   height: 100px;
   width: 100px;
-  background-color: turquoise;
+  background-color: blue;
   display: flex;
   justify-content: center;
   align-self: center;
   align-items: center;
 }
 
-.drag-component__orange {
+.drag-component__red {
   height: 100px;
   width: 100px;
-  background-color: orange;
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: flex-start;
 }
 
-.drag-component__magenta {
+.drag-component__green {
   height: 100px;
   width: 100px;
-  background-color: magenta;
+  background-color: green;
   display: flex;
   justify-content: center;
   justify-self: flex-end;
