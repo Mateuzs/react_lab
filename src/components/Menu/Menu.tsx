@@ -24,6 +24,9 @@ const Menu: FunctionComponent<MenuProps> = ({ open, setOpen }) => {
       <Link className="burger-menu__option" to="/drag">
         Drag Component
       </Link>
+      <Link className="burger-menu__option" to="/pictures">
+        Pictures
+      </Link>
     </div>
   );
 };

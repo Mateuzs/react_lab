@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Header, Footer, Home, DragContainer } from "./components";
 
 import "./App.scss";
+import Pictures from "./components/Pictures/Pictures";
 
 const App = () => {
   return (
@@ -13,6 +14,9 @@ const App = () => {
         <Switch>
           <Route path="/drag">
             <DragContainer />
+          </Route>
+          <Route path="/pictures">
+            <Pictures />
           </Route>
           <Route path="/">
             <Home title={"HOME"} />
