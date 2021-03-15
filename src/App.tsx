@@ -8,6 +8,7 @@ import {
   DragContainer,
   BrowserCompatibility,
   ApiCalls,
+  ApplicationPerformance,
 } from "./components";
 
 import "./App.scss";
@@ -28,7 +29,7 @@ const App = () => {
             <BrowserCompatibility />
           </Route>
           <Route path="/application-performance">
-            <BrowserCompatibility />
+            <ApplicationPerformance />
           </Route>
           <Route path="/">
             <Home title={"HOME"} />

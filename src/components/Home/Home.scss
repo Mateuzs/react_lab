@@ -1,3 +1,15 @@
+.home-description {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  line-height: 24px;
+  font-weight: normal;
+  text-align: justify;
+  width: 80%;
+}
+
 main {
   flex: 1 1 auto;
   color: white;
@@ -7,4 +19,8 @@ main {
   margin: 0.5rem 1rem;
   text-align: center;
   transition: 200ms;
+}
+
+h1 {
+  margin: 20px;
 }

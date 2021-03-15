@@ -123,7 +123,7 @@ const ApiCalls = () => {
         the data and about the error if occurs.
         <br />
         <br />
-        Provided a 3 different locationsin Poland to make comparison of air
+        Provided a 3 different locations in Poland to make comparison of air
         quality and another parameters measured.
       </span>
       <div className="button-container">

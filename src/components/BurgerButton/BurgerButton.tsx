@@ -16,6 +16,7 @@ const BurgerButton: FunctionComponent<BurgerButtonProps> = ({
       aria-label="menu button"
       className="burger-button"
       onClick={() => setOpen(!open)}
+      style={open ? { position: "fixed" } : { position: "inherit" }}
     >
       <div
         className="burger-button__bar"

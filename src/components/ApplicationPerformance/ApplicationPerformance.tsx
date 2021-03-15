@@ -1,29 +1,21 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
 
-import EDGE from "../../assets/EDGE.png";
-import IE11 from "../../assets/IE11.png";
-import CHROME from "../../assets/CHROME.png";
-import FIREFOX from "../../assets/FIREFOX.png";
-import OPERA from "../../assets/OPERA.png";
-import SAFARI from "../../assets/SAFARI.png";
-import YANDEX from "../../assets/YANDEX.png";
-import IOS_CHROME from "../../assets/IOS CHROME.png";
-import ANDROID from "../../assets/ANDROID.png";
+import ACCESSIBILITY from "../../assets/ACCESSIBILITY.webp";
+import SEO from "../../assets/SEO.webp";
+import TEST from "../../assets/TEST.webp";
+import LIGHTHOUSE from "../../assets/LIGHTHOUSE.webp";
+import BEST_PRACTICES from "../../assets/BEST PRACTICES.webp";
 
 import "./ApplicationPerformance.scss";
 
 const ApplicationPerformance = () => {
   const pictureUrls = [
-    { url: EDGE, alt: "App displayed in EDGE browser" },
-    { url: IE11, alt: "App displayed in IE11 browser" },
-    { url: CHROME, alt: "App displayed in CHROME browser" },
-    { url: FIREFOX, alt: "App displayed in FIREFOX browser" },
-    { url: OPERA, alt: "App displayed in OPERA browser" },
-    { url: SAFARI, alt: "App displayed in SAFARI browser" },
-    { url: YANDEX, alt: "App displayed in YANDEX browser" },
-    { url: IOS_CHROME, alt: "App displayed in IOS CHROME browser" },
-    { url: ANDROID, alt: "App displayed in ANDROID CHROME browser" },
+    { url: LIGHTHOUSE, alt: "Application performance achieved" },
+    { url: ACCESSIBILITY, alt: "Accessibility of application." },
+    { url: SEO, alt: "SEO of application" },
+    { url: BEST_PRACTICES, alt: "Best Practices of application development" },
+    { url: TEST, alt: "Test resources used in lighthouse test" },
   ];
 
   const pictureElements = pictureUrls.map(({ url, alt }, i) => {
@@ -38,8 +30,21 @@ const ApplicationPerformance = () => {
   });
 
   return (
-    <div className="pictures-container">
-      <h1 className="pictures-header">Application Compatibility</h1>
+    <div className="application-performance-container">
+      <h1 className="application-performance-header">
+        Application Performance
+      </h1>
+      <span className="application-performance-description">
+        The page represents tests results of application performance.
+        Performance has been performed by Google Chrome LightHouse tests. It
+        takes in consideration four main pieces of application aspects:
+        PERFORMANCE, ACCESSIBILITY, SEO, BEST PRACTICES. Together they show how
+        fast, responsive and reliable web application is.
+        <br />
+        <br />
+        Below there is a detailed report of Lighthouse test with used resources.
+        All of the test parts have proper description showing the meaning.
+      </span>
 
       <ul>{pictureElements}</ul>
     </div>

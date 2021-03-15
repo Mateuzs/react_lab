@@ -1,15 +1,15 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
 
-import EDGE from "../../assets/EDGE.png";
-import IE11 from "../../assets/IE11.png";
-import CHROME from "../../assets/CHROME.png";
-import FIREFOX from "../../assets/FIREFOX.png";
-import OPERA from "../../assets/OPERA.png";
-import SAFARI from "../../assets/SAFARI.png";
-import YANDEX from "../../assets/YANDEX.png";
-import IOS_CHROME from "../../assets/IOS CHROME.png";
-import ANDROID from "../../assets/ANDROID.png";
+import EDGE from "../../assets/EDGE.webp";
+import IE11 from "../../assets/IE11.webp";
+import CHROME from "../../assets/CHROME.webp";
+import FIREFOX from "../../assets/FIREFOX.webp";
+import OPERA from "../../assets/OPERA.webp";
+import SAFARI from "../../assets/SAFARI.webp";
+import YANDEX from "../../assets/YANDEX.webp";
+import IOS_CHROME from "../../assets/IOS CHROME.webp";
+import ANDROID from "../../assets/ANDROID.webp";
 
 import "./BrowserCompatibility.scss";
 

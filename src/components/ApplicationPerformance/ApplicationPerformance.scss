@@ -1,4 +1,4 @@
-.pictures-container {
+.application-performance-container {
   flex-grow: 1;
   flex-basis: 0;
   display: flex;
@@ -15,7 +15,7 @@
   flex-direction: column;
 }
 
-.pictures-header {
+.application-performance-header {
   margin: 20px;
 }
 
@@ -23,6 +23,15 @@
   display: flex;
   width: 100%;
   text-decoration: none;
+}
+
+.application-performance-description {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  padding: 5px;
 }
 
 img {
