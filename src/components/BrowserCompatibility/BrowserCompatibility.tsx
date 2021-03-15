@@ -43,7 +43,7 @@ const BrowserCompatibility = () => {
       <span className="browser-compatibility-description">
         The page represents tests results of application working in different
         environments. Developed with resposive design principle works properly
-        and with satisfied accesibility on desktop and mobile browsers.
+        and with satisfied accessibility on desktop and mobile browsers.
         <br />
         <br />
         Below there are example of working application in most popular browsers

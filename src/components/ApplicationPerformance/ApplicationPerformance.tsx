@@ -36,8 +36,8 @@ const ApplicationPerformance = () => {
       </h1>
       <span className="application-performance-description">
         The page represents tests results of application performance.
-        Performance has been performed by Google Chrome LightHouse tests. It
-        takes in consideration four main pieces of application aspects:
+        Performance has been performed by Google Chrome Lighthouse tests. It
+        takes into consideration four main pieces of application aspects:
         PERFORMANCE, ACCESSIBILITY, SEO, BEST PRACTICES. Together they show how
         fast, responsive and reliable web application is.
         <br />
