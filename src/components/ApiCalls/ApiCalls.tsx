@@ -37,6 +37,7 @@ const ApiCalls = () => {
       setLocationState(locationStateLoading);
       setEnvironmentState(environmentStateLoading);
 
+      // eslint-disable-next-line
       const [locationData, envData] = await Promise.all([
         (axios.get(urlLocationData, {
           headers,
