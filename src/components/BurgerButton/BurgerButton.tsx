@@ -9,10 +9,14 @@ interface BurgerButtonProps {
 
 const BurgerButton: FunctionComponent<BurgerButtonProps> = ({
   open,
-  setOpen
+  setOpen,
 }) => {
   return (
-    <button className="burger-button" onClick={() => setOpen(!open)}>
+    <button
+      aria-label="menu button"
+      className="burger-button"
+      onClick={() => setOpen(!open)}
+    >
       <div
         className="burger-button__bar"
         style={

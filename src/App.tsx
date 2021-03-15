@@ -1,10 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import { Header, Footer, Home, DragContainer } from "./components";
+import {
+  Header,
+  Footer,
+  Home,
+  DragContainer,
+  BrowserCompatibility,
+  ApiCalls,
+} from "./components";
 
 import "./App.scss";
-import Pictures from "./components/Pictures/Pictures";
 
 const App = () => {
   return (
@@ -15,8 +21,14 @@ const App = () => {
           <Route path="/drag">
             <DragContainer />
           </Route>
-          <Route path="/pictures">
-            <Pictures />
+          <Route path="/api-calls">
+            <ApiCalls />
+          </Route>
+          <Route path="/browser-compatibility">
+            <BrowserCompatibility />
+          </Route>
+          <Route path="/application-performance">
+            <BrowserCompatibility />
           </Route>
           <Route path="/">
             <Home title={"HOME"} />

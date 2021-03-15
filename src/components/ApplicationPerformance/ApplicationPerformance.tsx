@@ -11,9 +11,9 @@ import YANDEX from "../../assets/YANDEX.png";
 import IOS_CHROME from "../../assets/IOS CHROME.png";
 import ANDROID from "../../assets/ANDROID.png";
 
-import "./Pictures.scss";
+import "./ApplicationPerformance.scss";
 
-const Pictures = () => {
+const ApplicationPerformance = () => {
   const pictureUrls = [
     { url: EDGE, alt: "App displayed in EDGE browser" },
     { url: IE11, alt: "App displayed in IE11 browser" },
@@ -46,4 +46,4 @@ const Pictures = () => {
   );
 };
 
-export default Pictures;
+export default ApplicationPerformance;

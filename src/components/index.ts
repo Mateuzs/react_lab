@@ -4,4 +4,6 @@ export { default as Home } from "./Home/Home";
 export { default as DragContainer } from "./DragContainer/DragContainer";
 export { default as Menu } from "./Menu/Menu";
 export { default as BurgerButton } from "./BurgerButton/BurgerButton";
-export { default as Pictures } from "./Pictures/Pictures";
+export { default as BrowserCompatibility } from "./BrowserCompatibility/BrowserCompatibility";
+export { default as ApplicationPerformance } from "./ApplicationPerformance/ApplicationPerformance";
+export { default as ApiCalls } from "./ApiCalls/ApiCalls";
